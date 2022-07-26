@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Dice game</title>
+  <link rel="stylesheet" href="CSS/styles.css">
+  <link rel="icon" href="css/favicon.ico">
+  <link href="http://fonts.cdnfonts.com/css/games" rel="stylesheet">
+
+</head>
+<body onload="EnterNames()">
+  <div class="top-container">
+    <input id="winner1" class="text-1" type="text" name="" value="Winner" readonly>
+    <h1>Dice Game</h1>
+    <input id="winner2" class="text-1" type="text" name="" value="Winner" readonly>
+  </div>
+  <div class="middle-container" >
+    <img class="tray" src="Images/tray.svg" alt="tray-image">
+    <img id="Image-1" class="dice1" src="Images/dice_1.png" alt="dice1">
+    <img id="Image-2" class="dice2" src="Images/dice_2.png" alt="dice1">
+    <img class="knight-1" src="Images/knight-1.png" alt="1-knight">
+    <img class="knight-2" src="Images/knight-2.png" alt="2-knight">
+    <input id="plyr-1" class="text-1" type="text" name="" value="Player 1" readonly>
+    <input id="plyr-2" class="text-1" type="text" name="" value="Player 2" readonly>
+  </div>
+  <div class="bottom-container">
+    <input id ="score-1" class = "text-3" type="text" name="" value="0" readonly>
+    <button id = "btn" onclick="game()" type="button" name="button">Roll</button>
+    <input id ="score-2" class = "text-3" type="text" name="" value="0" readonly>
+
+  </div>
+  <script type="text/javascript" src="JS/scripts.js"></script>
+</body>
+
+</html>

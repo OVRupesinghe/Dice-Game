@@ -1,0 +1,183 @@
+@import url('http://fonts.cdnfonts.com/css/games');
+
+body{
+  background-image: url('../Images/image.jpg');
+/* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-color: black;
+
+}
+
+h1{
+  color: red;
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem;
+  font-family: 'Games', sans-serif;
+  text-shadow: 1px 1px black;
+  text-align: center;
+  filter: brightness(100%);
+  filter: contrast(100%);
+  filter: drop-shadow(10px 10px 10px orange);
+
+}
+
+.top-container{
+  padding-top: 50px;
+}
+
+.middle-container{
+  text-align: center;
+  height: 500px;
+}
+
+.bottom-container{
+  padding-top: 70px;
+  text-align: center;
+}
+
+.tray{
+  position: absolute;
+  left: 575px;
+  top: 300px;
+}
+
+.dice1{
+  max-width:10%;
+  height: auto;
+  position: absolute;
+  top: 375px;
+  left: 700px;
+  filter: brightness(100%);
+  filter: contrast(100%);
+  filter: drop-shadow(10px 10px 10px black);
+}
+
+.dice2{
+  max-width:10%;
+  height: auto;
+  position: absolute;
+  top: 375px;
+  left: 1050px;
+  filter: brightness(100%);
+  filter: contrast(100%);
+  filter: drop-shadow(10px 10px 10px black);
+}
+
+
+
+.knight-1{
+  max-width:15%;
+  height: auto;
+  position: absolute;
+  top: 300px;
+  left: 275px;
+  filter: brightness(100%);
+  filter: contrast(120%);
+  filter: drop-shadow(10px 10px 10px red);
+}
+
+.knight-2{
+  max-width:15%;
+  height: auto;
+  position: absolute;
+  top: 300px;
+  left: 1400px;
+  filter: brightness(100%);
+  filter: contrast(100%);
+  filter: drop-shadow(10px 10px 10px blue);
+}
+
+button {
+  background: #d93434;
+  background-image: -webkit-linear-gradient(top, #d93434, #947600);
+  background-image: -moz-linear-gradient(top, #d93434, #947600);
+  background-image: -ms-linear-gradient(top, #d93434, #947600);
+  background-image: -o-linear-gradient(top, #d93434, #947600);
+  background-image: linear-gradient(to bottom, #d93434, #947600);
+  -webkit-border-radius: 17;
+  -moz-border-radius: 17;
+  border-radius: 17px;
+  text-shadow: 5px 1px 3px #000000;
+  font-family: 'Games', sans-serif;;
+  color: #ffffff;
+  font-size: 47px;
+  padding: 20px 40px 20px 40px;
+  text-decoration: none;
+  border: none;
+}
+
+button:hover {
+  background: #ba7917;
+  text-decoration: none;
+}
+
+input[type=text]{
+
+}
+
+.text-1{
+  font-family: 'Games', sans-serif;
+  font-size: 2.75rem;
+  text-align: center;
+  background-color:rgba(0, 0, 0, 0);
+  color:white;
+  border: none;
+  outline:none;
+  height:30px;
+  transition:height 1s;
+  -webkit-transition:height 1s;
+  position: absolute;
+
+}
+
+#plyr-1{
+  bottom: 275px;
+  left: 125px;
+}
+
+#plyr-2{
+  bottom: 275px;
+  left: 1260px;
+}
+
+
+.text-3{
+  border-radius: 15px;
+  background: white;
+  padding: 20px;
+  width: 100px;
+  height: 100px;;
+  font-family: 'Games', sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  border:6px groove #F7730E;
+}
+
+#score-1{
+  position: absolute;
+  left: 350px;
+  bottom: 50px;
+}
+
+#score-2{
+  position: absolute;
+  bottom: 50px;
+  right: 300px;
+}
+
+#winner1{
+  position: absolute;
+  top: 210px;
+  left: 150px;
+  filter: brightness(100%);
+  filter: contrast(100%);
+  filter: drop-shadow(10px 10px 10px red);
+}
+
+#winner2{
+  position: absolute;
+  right: 100px;
+  filter: brightness(100%);
+  filter: contrast(100%);
+  filter: drop-shadow(10px 10px 10px blue);
+}
